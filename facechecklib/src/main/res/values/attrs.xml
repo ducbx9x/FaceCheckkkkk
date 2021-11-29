@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="toolbar">
+        <attr name="titleText" format="string" localization="suggested" />
+        <attr name="leftDrawable" format="integer"/>
+        <attr name="hiddenLeftDrawable" format="boolean"/>
+        <attr name="backgroundColor" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="AutoViewPager">
+        <attr name="avp_indeterminate" format="boolean" />
+        <attr name="avp_autoScroll" format="boolean" />
+        <attr name="avp_duration" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="AutoFormatEditText">
+        <attr name="isDecimal" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="StepView">
+        <attr name="sv_selectedCircleColor" format="color" />
+        <attr name="sv_selectedCircleRadius" format="dimension" />
+        <attr name="sv_selectedTextColor" format="color" />
+        <attr name="sv_selectedStepNumberColor" format="color" />
+        <attr name="sv_stepNumberTextSize" format="dimension" />
+        <attr name="sv_doneStepMarkColor" format="color" />
+        <attr name="sv_doneCircleColor" format="color" />
+        <attr name="sv_doneCircleRadius" format="dimension" />
+        <attr name="sv_doneTextColor" format="color" />
+        <attr name="sv_nextTextColor" format="color" />
+        <attr name="sv_nextStepLineColor" format="color" />
+        <attr name="sv_doneStepLineColor" format="color" />
+        <attr name="sv_stepPadding" format="dimension" />
+        <attr name="sv_textPadding" format="dimension" />
+        <attr name="sv_stepLineWidth" format="dimension" />
+        <attr name="sv_textSize" format="dimension" />
+        <attr name="sv_background" format="color" />
+        <attr name="sv_animationDuration" format="integer" />
+        <attr name="sv_stepViewStyle" format="reference" />
+        <attr name="sv_animationType" format="enum">
+            <enum name="Line" value="0" />
+            <enum name="Circle" value="1" />
+            <enum name="All" value="2" />
+            <enum name="None" value="3" />
+        </attr>
+        <attr name="sv_stepsNumber" format="integer" />
+        <attr name="sv_steps" format="reference" />
+        <attr name="sv_typeface" format="reference" />
+        <attr name="sv_selected_typeface" format="reference" />
+        <attr name="sv_nextStepCircleEnabled" format="boolean" />
+        <attr name="sv_animationSelect" format="boolean" />
+        <attr name="sv_nextStepCircleColor" format="color" />
+    </declare-styleable>
+
+    <!-- Dot Indicator custom    -->
+    <attr format="color" name="dotsColor"/>
+    <attr format="color" name="selectedDotColor"/>
+    <attr format="color" name="dotsStrokeColor"/>
+    <attr format="dimension" name="dotsSize"/>
+    <attr format="float" name="dotsWidthFactor"/>
+    <attr format="dimension" name="dotsSpacing"/>
+    <attr format="dimension" name="dotsCornerRadius"/>
+    <attr format="dimension" name="dotsStrokeWidth"/>
+    <attr format="float" name="stiffness"/>
+    <attr format="float" name="dampingRatio"/>
+    <attr format="boolean" name="progressMode"/>
+
+    <declare-styleable name="DotsIndicator">
+        <attr name="dotsColor"/>
+        <attr name="selectedDotColor"/>
+        <attr name="dotsSize"/>
+        <attr name="dotsWidthFactor"/>
+        <attr name="dotsSpacing"/>
+        <attr name="dotsCornerRadius"/>
+        <attr name="progressMode"/>
+    </declare-styleable>
+
+    <declare-styleable name="SpringDotsIndicator">
+        <attr name="dotsColor"/>
+        <attr name="dotsSize"/>
+        <attr name="dotsSpacing"/>
+        <attr name="dotsCornerRadius"/>
+        <attr name="dotsStrokeWidth"/>
+        <attr name="dotsStrokeColor"/>
+        <attr name="stiffness"/>
+        <attr name="dampingRatio"/>
+    </declare-styleable>
+
+    <declare-styleable name="CirCleRefreshLayout">
+        <attr name="AniBackColor" format="color" />
+        <attr name="AniForeColor" format="color" />
+        <attr name="CircleSmaller" format="integer"/>
+    </declare-styleable>
+
+    <declare-styleable name="TextViewDrawableSize">
+        <attr name="compoundDrawableWidth" format="dimension"/>
+        <attr name="compoundDrawableHeight" format="dimension"/>
+    </declare-styleable>
+</resources>

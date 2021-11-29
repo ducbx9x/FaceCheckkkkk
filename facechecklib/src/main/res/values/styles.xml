@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Toolbar.TitleTextHome" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">@dimen/text_size_18</item>
+
+        <item name="android:textColor">@color/colorToolbarTitle</item>
+    </style>
+    <style name="SheetDialog" parent="Theme.Design.Light.BottomSheetDialog">
+        <!--<item name="android:windowCloseOnTouchOutside">false</item>-->
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:colorBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.8</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowSoftInputMode">adjustResize</item>
+    </style>
+
+    <style name="MyThemeOverlay.MaterialComponents" parent="ThemeOverlay.MaterialComponents.Light">
+
+    </style>
+
+    <style name="TextViewCategoriesSelected" parent="android:Widget.TextView">
+        <item name="android:textSize">@dimen/text_size_14</item>
+        <item name="android:textColor">@color/colorNeonBlue</item>
+        <item name="android:gravity">center</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">1</item>
+    </style>
+
+
+    <style name="TextViewCategories" parent="android:Widget.TextView">
+        <item name="android:textSize">@dimen/text_size_14</item>
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:gravity">center</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    //Primary
+
+    <style name="MyThemeOverlay.MaterialComponents.Primary"></style>
+
+    <style name="MyThemeOverlay.MaterialComponents.Primary_Pink">
+        <item name="colorPrimary">@color/colorNeonBlue</item>
+        <item name="colorOnPrimary">@color/colorWhite</item>
+    </style>
+
+    <style name="MyThemeOverlay.MaterialComponents.Primary_PinkAlpha10_OnPrimary_Pink">
+        <item name="colorPrimary">@color/colorPinkAlpha10</item>
+        <item name="colorOnPrimary">@color/colorPink</item>
+    </style>
+
+    <style name="MyThemeOverlay.MaterialComponents.Primary_Yellow">
+        <item name="colorPrimary">@color/colorYellow</item>
+        <item name="colorOnPrimary">@color/colorWhite</item>
+    </style>
+
+    <style name="MyThemeOverlay.MaterialComponents.Primary_YellowAlpha10_OnPrimary_Yellow">
+        <item name="colorPrimary">@color/colorYellowAlpha10</item>
+        <item name="colorOnPrimary">@color/colorYellow</item>
+    </style>
+
+    <style name="MyThemeOverlay.MaterialComponents.Primary_NeonBlue">
+        <item name="colorPrimary">@color/colorNeonBlue</item>
+        <item name="colorOnPrimary">@color/colorWhite</item>
+    </style>
+
+    <style name="MyThemeOverlay.MaterialComponents.Primary_Gray">
+        <item name="colorPrimary">@color/colorGray</item>
+        <item name="colorOnPrimary">@color/colorWhite</item>
+    </style>
+
+    <style name="MyThemeOverlay.MaterialComponents.Primary_GrayAlpha10_OnPrimary_Gray">
+        <item name="colorPrimary">@color/colorGrayAlpha10</item>
+        <item name="colorOnPrimary">@color/colorGray</item>
+    </style>
+
+    <style name="MyThemeOverlay.MaterialComponents.Primary_White">
+        <item name="colorPrimary">@color/colorWhite</item>
+        <item name="colorOnPrimary">@color/colorDark</item>
+    </style>
+
+    <style name="MyThemeOverlay.MaterialComponents.Primary_WhiteAlpha10_OnPrimary_White">
+        <item name="colorPrimary">@color/colorWhiteAlpha20</item>
+        <item name="colorOnPrimary">@color/colorWhite</item>
+    </style>
+
+    //OnSurface
+    <style name="MyThemeOverlay.MaterialComponents.OnSurface_Gray">
+        <item name="colorSurface">@color/colorWhite</item>
+        <item name="colorOnSurface">@color/colorGray</item>
+    </style>
+</resources>

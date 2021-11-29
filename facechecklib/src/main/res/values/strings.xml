@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">Lending App</string>
+    <string name="phone_number">Số điện thoại</string>
+    <string name="otp">OTP</string>
+    <string name="password">Mật khẩu</string>
+    <string name="email" translatable="false">Email</string>
+    <string name="hello">Xin chào</string>
+    <string name="my_file">Hồ sơ của tôi</string>
+    <string name="my_gift">Điểm thưởng</string>
+    <string name="product">Sản phẩm</string>
+    <string name="agree_and_continue">Đồng ý và tiếp tục</string>
+    <string name="login">Đăng nhập</string>
+    <string name="register">Đăng ký</string>
+    <string name="forgot" translatable="false">Quên mật khẩu</string>
+    <string name="dieukhoan" translatable="false">Đồng ý với các <u>Điều khoản dịch vụ và Chính sách bảo mật</u></string>
+    <string name="create_don_vay">Tạo đơn vay</string>
+    <string name="default_notification_channel_id">vn.vmg.lending.lendingplatform</string>
+    <string name="active">Kích hoạt</string>
+    <string name="loan_form">Hình thức vay</string>
+    <string name="cash_loan">Vay tiền mặt</string>
+    <string name="interest_rate">Lãi suất/tháng (tham khảo)</string>
+    <string name="credit_card_loan">Mở thẻ tín dụng</string>
+    <string name="cccd_cmndd">CMND/ CCCD mặt trước </string>
+    <string name="cccd_cmndd_s">CMND/ CCCD mặt sau </string>
+    <string name="installment_loan">Vay trả góp</string>
+    <string name="vay_mua_san_pham_tra_gop">Vay mua sản phẩm trả góp</string>
+    <string name="amount_to_be_paid_upon_settlement">Số tiền phải trả khi tất toán (tham khảo)</string>
+    <string name="loan_detail">Chi tiết khoản vay</string>
+    <string name="disbursement_date">Ngày giải ngân</string>
+    <string name="interest_free_period">Thời gian không tính lãi suất (ngày)</string>
+    <string name="annual_fees">Phí thường niên</string>
+    <string name="identification">Xác định danh tính</string>
+    <string name="invalid_photo_please_take_a_photo">Ảnh không hợp lệ. Vui lòng chụp lại</string>
+    <string name="photography_guide">Hướng dẫn chụp ảnh</string>
+    <string name="information_front">Thông tin mặt trước</string>
+    <string name="information_back">Thông tin mặt sau</string>
+    <string name="type_of_document">Loại giấy tờ</string>
+    <string name="id_number">Số CMND/CCCD</string>
+    <string name="first_and_last_name">Họ và Tên</string>
+    <string name="date_of_birth">Ngày sinh</string>
+    <string name="sex">Giới tính</string>
+    <string name="nationality">Quốc tịch</string>
+    <string name="expiration_date">Ngày hết hạn</string>
+    <string name="permanent_address">Địa chỉ thường trú</string>
+    <string name="household_address">Địa chỉ hộ khẩu</string>
+    <string name="date_range">Ngày cấp</string>
+    <string name="place_of_identification">Nơi cấp</string>
+    <string name="account_holder">Chủ tài khoản</string>
+    <string name="Branch">Chi nhánh</string>
+    <string name="Branch_yep">Số tài khoản</string>
+    <string name="receive_money_via_bank_account">Nhận tiền qua tài khoản ngân hàng</string>
+    <string name="disbursement_form">Hình thức giải ngân</string>
+    <string name="receive_money_via_wallet">Nhận tiền qua ví</string>
+    <string name="receive_money_via_post">Nhận tiền qua Post</string>
+    <string name="post_office_name">Tên bưu cục</string>
+    <string name="address">Địa chỉ</string>
+    <string name="cmnd_cccd">Số CMND/CCCD</string>
+    <string name="information_user">Thông tin cá nhân</string>
+    <string name="change_pass" translatable="false">Đổi mật khẩu</string>
+    <string name="my_point">Điểm thưởng của tôi</string>
+    <string name="statistical">Thống kê</string>
+    <string name="update_info">Bổ sung thông tin</string>
+    <string name="face_check">Xác thực khuôn mặt</string>
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+
+    <!--    //order-->
+    <string name="str_order_history">Thông tin bổ sung</string>
+    <string name="finished">Xong</string>
+    <string name="str_order_inprogress">Thông tin cá nhân</string>
+    <string name="click_to_video">Click để quay video</string>
+    <string name="otp_resend_otp" translatable="false"><![CDATA[Gửi lại OTP <font color=#F0A616>%1$s</font>]]></string>
+    <string name="resend_code" translatable="false">Gửi lại mã</string>
+    <string name="send" translatable="false">Gửi</string>
+
+</resources>

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorApp"
+        android:paddingTop="@dimen/_24dp"
+        app:elevation="@dimen/_0dp">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:contentInsetStart="@dimen/_0dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/tv_title"
+                    style="@style/Toolbar.TitleTextHome"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginEnd="?attr/actionBarSize"
+                    android:ellipsize="end"
+                    android:gravity="center"
+                    android:lines="1"
+                    android:maxLines="1"
+                    android:text="@string/face_check"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_18sp" />
+
+                <ImageView
+                    android:id="@+id/btn_back"
+                    android:layout_width="?attr/actionBarSize"
+                    android:layout_height="?attr/actionBarSize"
+                    android:background="?attr/selectableItemBackground"
+                    android:padding="@dimen/_16dp"
+                    android:src="@drawable/ic_back" />
+
+            </RelativeLayout>
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/rlCaptureOption"
+        android:layout_below="@id/app_bar"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/black">
+
+
+            <TextureView
+                android:id="@+id/camera_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <ImageView
+                android:id="@+id/img"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="@dimen/_10dp"
+                android:src="@drawable/overlay_camera_preview" />
+
+            <TextView
+                android:id="@+id/textCounter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bg_record_video"
+                android:drawablePadding="10dp"
+                android:gravity="center"
+                android:padding="10dp"
+                android:layout_alignBottom="@+id/img"
+                android:layout_centerHorizontal="true"
+                android:text="00:00"
+                android:textColor="@android:color/white"
+                android:layout_marginBottom="@dimen/_12dp"
+                android:textSize="14sp"
+                android:visibility="visible"
+                app:drawableLeftCompat="@drawable/red_dot" />
+
+            <TextView
+                android:id="@+id/textStep"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="@dimen/_12dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Nhìn thẳng"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_30sp" />
+
+
+            <LinearLayout
+                android:id="@+id/llImageModificationBottomOptions"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="bottom"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:gravity="bottom"
+                android:orientation="vertical">
+
+            </LinearLayout>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlCaptureOption"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_165dp"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingTop="@dimen/_20dp"
+        android:paddingBottom="@dimen/_20dp">
+
+        <TextView
+            android:id="@+id/hintTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/imgCapture"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/_24dp"
+            android:gravity="center"
+            android:text="Hãy điều chỉnh khuôn mặt sao cho khuôn mặt\nnằm trong hình tròn\n(Sau đó nhấn ghi hình)"
+            android:textColor="@color/black"
+            android:textSize="11sp" />
+
+        <ImageView
+            android:id="@+id/imgCapture"
+            android:layout_width="@dimen/_50dp"
+            android:layout_height="@dimen/_50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:src="@drawable/ic_capture" />
+    </RelativeLayout>
+    <!--        <include-->
+    <!--            android:id="@+id/layoutLoading"-->
+    <!--            layout="@layout/layout_loading"-->
+    <!--            android:visibility="gone"/>-->
+</RelativeLayout>

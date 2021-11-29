@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Start - Default setting for tag view custom -->
+    <string-array name="labels">
+        <item>Rong nho</item>
+        <item>Dừa xiêm</item>
+        <item>Thanh long</item>
+        <item>Sầu riêng Musangking Sầu riêng Musangking  Sầu riêng Musangking Sầu riêng Musangking Sầu riêng Musangking</item>
+        <item>Cherry Mỹ</item>
+    </string-array>
+    <string-array name="recents">
+        <item>Rong nho</item>
+        <item>Bưởi hồng da xanh</item>
+        <item>Kiwi Vàng New Zealand</item>
+        <item>Sầu riêng Musangking</item>
+        <item>Nho xanh New Zealand</item>
+    </string-array>
+    <integer name="config_navAnimTime">300</integer>
+    <color name="chip">#333</color>
+    <color name="dark_grey">#333333</color>
+    <color name="deselected_color">#aaffaa</color>
+    <color name="deselected_font_color">#339933</color>
+    <color name="light_grey">#bbbbbb</color>
+    <color name="selected_color">#ffffaa</color>
+    <color name="selected_font_color">#999933</color>
+    <color name="white">#ffffff</color>
+    <declare-styleable name="ChipCloud">
+        <attr name="deselectedColor" format="color" />
+        <attr name="deselectedFontColor" format="color" />
+        <attr name="selectedColor" format="color" />
+        <attr name="selectedFontColor" format="color" />
+        <attr name="selectTransitionMS" format="integer" />
+        <attr name="deselectTransitionMS" format="integer" />
+        <attr name="selectMode">
+            <enum name="single" value="0" />
+            <enum name="multi" value="1" />
+            <enum name="required" value="2" />
+            <enum name="none" value="3" />
+        </attr>
+        <attr name="gravity">
+            <enum name="left" value="0" />
+            <enum name="right" value="1" />
+            <enum name="center" value="2" />
+            <enum name="staggered" value="3" />
+        </attr>
+        <attr name="typeface" format="string" />
+        <attr name="allCaps" format="boolean" />
+        <attr name="textSize" format="dimension" />
+        <attr name="labels" format="reference" />
+        <attr name="minHorizontalSpacing" format="dimension" />
+        <attr name="verticalSpacing" format="dimension" />
+    </declare-styleable>
+    <dimen name="default_textsize">13sp</dimen>
+    <dimen name="material_chip_height">32dp</dimen>
+    <dimen name="min_horizontal_spacing">8dp</dimen>
+    <dimen name="vertical_spacing">8dp</dimen>
+    <item name="programmatic_transition_drawable" type="id" />
+    <!--End - Default setting for tag view custom -->
+</resources>

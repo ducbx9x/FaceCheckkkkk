@@ -1,0 +1,112 @@
+<resources>
+
+    <style name="ShapeAppearance.MyTheme.SmallComponent" parent="ShapeAppearance.MaterialComponents.SmallComponent">
+        <!--Your custom shape here-->
+    </style>
+
+    <!--Shape Appearance for medium components like cards, alert dialogs-->
+    <style name="ShapeAppearance.MyTheme.MediumComponent" parent="ShapeAppearance.MaterialComponents.MediumComponent">
+        <!--Your custom shape here-->
+    </style>
+
+    <!--Shape Appearance for large components like side and bottom navigation drawers-->
+    <style name="ShapeAppearance.MyTheme.LargeComponent" parent="ShapeAppearance.MaterialComponents.LargeComponent">
+        <!--Your custom shape here-->
+    </style>
+
+    <!--Pixel-->
+    <style name="ShapeAppearance.MyTheme.CornerSize8dp" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">@dimen/_8dp</item>
+    </style>
+
+    <style name="ShapeAppearance.MyTheme.CornerSize16dp" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">@dimen/_16dp</item>
+    </style>
+
+    <style name="ShapeAppearance.MyTheme.CornerSize20dp" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">@dimen/_20dp</item>
+    </style>
+
+    <style name="ShapeAppearance.MyTheme.CornerSize24dp" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">@dimen/_20dp</item>
+    </style>
+
+    <style name="ShapeAppearance.MyTheme.CornerSize32dp" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">@dimen/_32dp</item>
+    </style>
+    <!--Percent-->
+    <style name="ShapeAppearance.MyTheme.CornerSize2Percent" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">2%</item>
+    </style>
+
+    <style name="ShapeAppearance.MyTheme.CornerSize5Percent" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">5%</item>
+    </style>
+
+    <style name="ShapeAppearance.MyTheme.CornerSize50Percent" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <style name="ShapeAppearance.MyTheme.CornerSize10Percent" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">10%</item>
+    </style>
+
+    <!--Pixel Top-->
+    <style name="ShapeAppearance.MyTheme.CornerSize8dp.Top" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopLeft">@dimen/_8dp</item>
+        <item name="cornerSizeTopRight">@dimen/_8dp</item>
+        <item name="cornerSizeBottomRight">0dp</item>
+        <item name="cornerSizeBottomLeft">0dp</item>
+    </style>
+
+    <style name="ShapeAppearance.MyTheme.CornerSize16dp.Top" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopLeft">@dimen/_16dp</item>
+        <item name="cornerSizeTopRight">@dimen/_16dp</item>
+        <item name="cornerSizeBottomRight">0dp</item>
+        <item name="cornerSizeBottomLeft">0dp</item>
+    </style>
+
+    <style name="ShapeAppearance.MyTheme.CornerSize20dp.Top" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopLeft">@dimen/_20dp</item>
+        <item name="cornerSizeTopRight">@dimen/_20dp</item>
+        <item name="cornerSizeBottomRight">0dp</item>
+        <item name="cornerSizeBottomLeft">0dp</item>
+    </style>
+
+    <style name="ShapeAppearance.MyTheme.CornerSize32dp.Top" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopLeft">@dimen/_32dp</item>
+        <item name="cornerSizeTopRight">@dimen/_32dp</item>
+        <item name="cornerSizeBottomRight">0dp</item>
+        <item name="cornerSizeBottomLeft">0dp</item>
+    </style>
+
+    <!--Pixel Bottom-->
+    <style name="ShapeAppearance.MyTheme.CornerSize16dp.Bottom" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopLeft">0dp</item>
+        <item name="cornerSizeTopRight">0dp</item>
+        <item name="cornerSizeBottomRight">@dimen/_16dp</item>
+        <item name="cornerSizeBottomLeft">@dimen/_16dp</item>
+    </style>
+
+    <style name="ShapeAppearance.MyTheme.CornerSize20dp.Bottom" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopLeft">0dp</item>
+        <item name="cornerSizeTopRight">0dp</item>
+        <item name="cornerSizeBottomRight">@dimen/_20dp</item>
+        <item name="cornerSizeBottomLeft">@dimen/_20dp</item>
+    </style>
+</resources>
