@@ -24,11 +24,11 @@ android {
         }
     }
     compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_8
-        targetCompatibility JavaVersion.VERSION_1_8
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
     }
     kotlinOptions {
-        jvmTarget = '1.8'
+        jvmTarget = '11'
     }
 }
 
@@ -52,5 +52,4 @@ dependencies {
     implementation 'com.squareup.retrofit2:converter-gson:2.3.0'
     implementation "androidx.lifecycle:lifecycle-livedata-ktx:2.4.0"
     implementation 'com.squareup.okhttp3:logging-interceptor:4.9.0'
-    implementation 'com.github.ducbx9x:faceCheckLib:1.1.0'
 }
